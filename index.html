@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IT</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <h1>IT Компоненты</h1>
+    </header>
+
+   
+    <div class="tabs-container">
+        <div class="tabs">
+            <button class="tab-link active" data-tab="tab1">Главная</button>
+            <button class="tab-link" data-tab="tab2">О нас</button>
+            <button class="tab-link" data-tab="tab3">Контакты</button>
+        </div>
+        <div class="tab-content active" id="tab1">
+            <h2>Салем</h2>
+            <p>Это простой но стильный компонент.</p>
+        </div>
+        <div class="tab-content" id="tab2">
+            <h2>О нас</h2>
+            <p>Мы создаем удобные и красивые интерфейсы.</p>
+        </div>
+        <div class="tab-content" id="tab3">
+            <h2>Контакты</h2>
+            <p>Email: bekbekbek@gmail.com</p>
+        </div>
+    </div>
+
+  
+    <button id="openPopup" class="btn">Подробнее</button>
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <span class="close">&times;</span>
+            <h2>О проекте</h2>
+            <p>Этот интерфейс создан в минималистичном айти-стиле.</p>
+        </div>
+    </div>
+
+    <div class="accordion">
+        <div class="accordion-item">
+            <button class="accordion-header">Как это работает</button>
+            <div class="accordion-content">Просто переключай вкладки и открывай попап.</div>
+        </div>
+        <div class="accordion-item">
+            <button class="accordion-header">Что используется</button>
+            <div class="accordion-content">HTML, CSS, jQuery всё просто.</div>
+        </div>
+    </div>
+
+</body>
+</html>
